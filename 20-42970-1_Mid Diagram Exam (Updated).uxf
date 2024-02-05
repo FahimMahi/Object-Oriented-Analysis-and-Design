@@ -1,0 +1,41 @@
+<diagram program="umletino" version="14.3.0"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>210</x><y>150</y><w>210</w><h>200</h></coordinates><panel_attributes>Patient
+--
+-Age: int
+-Name: string
+-Hobbies: string
+-BloodType: string
+-Occupation: string
+-Insurance: string
+-Carrier: string
+-Address: string
+-Phone: int
+--
++AddAppointment(): void
++ListPatient(): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>560</x><y>150</y><w>210</w><h>190</h></coordinates><panel_attributes>InsuranceCarrier
+--
+-Name: string
+-NumberOfPatientOnPlan: int
+-Address: string
+-ContactName: string
+-Phone: int
+--
++ListPatient(): void
++ListDoctor(): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>360</x><y>410</y><w>210</w><h>190</h></coordinates><panel_attributes>Doctor
+--
+-Specialty: string
+-ProviderIndetificationNumber: int
+-GolfHandicap: string
+-Age: int
+-Phone: int
+-Name: strong
+--
++ListDoctor(): void
++AddCheckingTime(): void
++ChangeCheckingTime(): void
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>410</x><y>230</y><w>170</w><h>30</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>150;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>410</x><y>270</y><w>70</w><h>160</h></coordinates><panel_attributes>lt=&lt;-
+m1=0..n</panel_attributes><additional_attributes>10;10;50;140</additional_attributes></element><element><id>Relation</id><coordinates><x>360</x><y>340</y><w>60</w><h>90</h></coordinates><panel_attributes>lt=&lt;-
+m1=  1</panel_attributes><additional_attributes>40;70;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>600</x><y>480</y><w>210</w><h>80</h></coordinates><panel_attributes>Employee
+--
+-Phone: int=01712345000
+--
++ListEmployee(): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>660</x><y>330</y><w>60</w><h>170</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>40;150;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>560</x><y>440</y><w>110</w><h>60</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>90;40;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>470</x><y>290</y><w>110</w><h>140</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>90;10;10;120</additional_attributes></element></diagram>
