@@ -1,0 +1,98 @@
+<diagram program="umletino" version="15.1"><zoom_level>9</zoom_level><help_text></help_text><element><id>UMLClass</id><coordinates><x>486</x><y>117</y><w>189</w><h>81</h></coordinates><panel_attributes>Customer
+--
+Id: string
+Name: string
+Email:
+Password:</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1035</x><y>729</y><w>189</w><h>90</h></coordinates><panel_attributes>Musical Component
+--
+ID: string
+Name: string
+Condition:
+Price:</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1035</x><y>342</y><w>189</w><h>81</h></coordinates><panel_attributes>Engineer
+--
+ID: string
+Name: string
+Contact:
+Experience:</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>234</x><y>585</y><w>189</w><h>90</h></coordinates><panel_attributes>Shop
+--
+Name: string
+Contact:
+Location:
+Rating:</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>864</x><y>117</y><w>189</w><h>81</h></coordinates><panel_attributes>Technician
+--
+ID: string
+Name: sting:
+Contact:
+Experience:</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1035</x><y>558</y><w>189</w><h>90</h></coordinates><panel_attributes>Studio
+--
+Location:
+Pricing:
+Equipment:
+Availability:</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>486</x><y>549</y><w>189</w><h>90</h></coordinates><panel_attributes>Booking
+--
+Booking ID: string
+Date/ Time:
+Duration:
+Status:</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>153</x><y>297</y><w>189</w><h>90</h></coordinates><panel_attributes>Practice Pad
+--
+Location:
+Price:
+Amenities:
+Review:</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>153</x><y>450</y><w>189</w><h>90</h></coordinates><panel_attributes>Musician
+--
+ID: string
+Name: string
+Contact:
+Experience:</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>756</x><y>441</y><w>189</w><h>108</h></coordinates><panel_attributes>Event
+--
+Name: string
+ID: string
+Location:
+Description:
+Budget:
+Sponsor:</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>837</x><y>297</y><w>36</w><h>162</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-
+1
+
+
+
+
+
+0*</panel_attributes><additional_attributes>10;160;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>549</x><y>189</y><w>36</w><h>378</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-
+1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1*</panel_attributes><additional_attributes>10;400;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>666</x><y>576</y><w>387</w><h>36</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-
+1                                                    0*</panel_attributes><additional_attributes>10;20;410;20</additional_attributes></element><element><id>Relation</id><coordinates><x>828</x><y>540</y><w>225</w><h>63</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;50;230;50</additional_attributes></element><element><id>Relation</id><coordinates><x>396</x><y>189</y><w>162</w><h>414</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-
+1*                                     1</panel_attributes><additional_attributes>120;10;120;260;10;260;10;440</additional_attributes></element><element><id>Relation</id><coordinates><x>333</x><y>171</y><w>171</w><h>342</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-
+1                 </panel_attributes><additional_attributes>170;10;30;10;30;360;10;360</additional_attributes></element><element><id>Relation</id><coordinates><x>207</x><y>135</y><w>297</w><h>180</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-
+0*                                                 1</panel_attributes><additional_attributes>310;20;40;20;40;180</additional_attributes></element><element><id>Relation</id><coordinates><x>666</x><y>144</y><w>216</w><h>36</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-
+1                                               1*</panel_attributes><additional_attributes>220;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>1125</x><y>414</y><w>36</w><h>162</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-
+1
+
+0*</panel_attributes><additional_attributes>10;160;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>1125</x><y>639</y><w>36</w><h>108</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-
+1
+
+0*</panel_attributes><additional_attributes>10;10;10;100</additional_attributes></element><element><id>UMLClass</id><coordinates><x>756</x><y>207</y><w>189</w><h>99</h></coordinates><panel_attributes>Event Organizer
+--
+Id: string
+Name: string
+Email:
+Password:
+Company: string</panel_attributes><additional_attributes></additional_attributes></element></diagram>

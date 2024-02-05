@@ -1,0 +1,24 @@
+<diagram program="umletino" version="14.3.0"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>130</x><y>370</y><w>210</w><h>90</h></coordinates><panel_attributes>Library
+--
+-BookNo: int
+-BookName: string
+--
++BookList(): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>270</x><y>180</y><w>210</w><h>100</h></coordinates><panel_attributes>Student
+--
+-Name: string
+-MemberID: int
+--
++listOfStudent'sID: void
++listOfStudent'sName: void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>0</x><y>180</y><w>210</w><h>100</h></coordinates><panel_attributes>Staff
+--
+-Name: string
+-Member'sID: int
+--
++listOfStaff'sID: void
++listOfStaff'sName: void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>110</x><y>270</y><w>130</w><h>120</h></coordinates><panel_attributes>lt=-
+m1=10
+m2=0
+Borrow Book</panel_attributes><additional_attributes>110;100;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>230</x><y>270</y><w>150</w><h>120</h></coordinates><panel_attributes>lt=-
+m1=3
+m2=0
+Borrow Book</panel_attributes><additional_attributes>10;100;130;10</additional_attributes></element></diagram>

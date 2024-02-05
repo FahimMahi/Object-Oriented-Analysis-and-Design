@@ -1,0 +1,102 @@
+<diagram program="umletino" version="15.1"><zoom_level>9</zoom_level><help_text></help_text><element><id>UMLClass</id><coordinates><x>513</x><y>81</y><w>189</w><h>81</h></coordinates><panel_attributes>Customer
+--
+Id: string
+Name: string
+Email:
+Password:</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1062</x><y>693</y><w>189</w><h>90</h></coordinates><panel_attributes>Musical Component
+--
+ID: string
+Name: string
+Condition:
+Price:</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1017</x><y>81</y><w>189</w><h>90</h></coordinates><panel_attributes>Shop
+--
+Name: string
+Contact:
+Location:
+Rating:</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>513</x><y>675</y><w>189</w><h>81</h></coordinates><panel_attributes>Technician
+--
+ID: string
+Name: sting:
+Contact:
+Experience:</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1062</x><y>522</y><w>189</w><h>90</h></coordinates><panel_attributes>Studio
+--
+Location:
+Pricing:
+Equipment:
+Availability:</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>234</x><y>279</y><w>189</w><h>90</h></coordinates><panel_attributes>Practice Pad
+--
+Location:
+Price:
+Amenities:
+Review:</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>108</x><y>513</y><w>189</w><h>90</h></coordinates><panel_attributes>Musician
+--
+ID: string
+Name: string
+Contact:
+Experience:</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>783</x><y>405</y><w>189</w><h>108</h></coordinates><panel_attributes>Event
+--
+Name: string
+ID: string
+Location:
+Description:
+Budget:
+Sponsor:</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>864</x><y>261</y><w>36</w><h>162</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-
+1
+
+
+
+
+
+0*</panel_attributes><additional_attributes>10;160;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>594</x><y>153</y><w>36</w><h>378</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-
+1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1*</panel_attributes><additional_attributes>10;400;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>693</x><y>540</y><w>387</w><h>36</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-
+1                                                    0*</panel_attributes><additional_attributes>10;20;410;20</additional_attributes></element><element><id>Relation</id><coordinates><x>855</x><y>504</y><w>225</w><h>63</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;50;230;50</additional_attributes></element><element><id>Relation</id><coordinates><x>693</x><y>108</y><w>342</w><h>36</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-
+1*                    1</panel_attributes><additional_attributes>10;20;360;20</additional_attributes></element><element><id>Relation</id><coordinates><x>189</x><y>135</y><w>342</w><h>396</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-
+1                 </panel_attributes><additional_attributes>360;10;10;10;10;420</additional_attributes></element><element><id>Relation</id><coordinates><x>252</x><y>99</y><w>279</w><h>198</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-
+0*                                                 1</panel_attributes><additional_attributes>290;20;80;20;80;200</additional_attributes></element><element><id>Relation</id><coordinates><x>1152</x><y>603</y><w>36</w><h>108</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-
+1
+
+0*</panel_attributes><additional_attributes>10;10;10;100</additional_attributes></element><element><id>UMLClass</id><coordinates><x>783</x><y>171</y><w>189</w><h>99</h></coordinates><panel_attributes>Event Organizer
+--
+Id: string
+Name: string
+Email:
+Password:
+Company: string</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>513</x><y>513</y><w>189</w><h>90</h></coordinates><panel_attributes>Booking
+--
+Booking ID: string
+Date/ Time:
+Duration:
+Status:</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>585</x><y>594</y><w>36</w><h>99</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-
+1
+
+
+0*</panel_attributes><additional_attributes>10;10;10;90</additional_attributes></element><element><id>Relation</id><coordinates><x>414</x><y>324</y><w>261</w><h>207</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-
+0*                                                 1</panel_attributes><additional_attributes>180;210;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>288</x><y>540</y><w>243</w><h>36</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-
+0*                                                 1</panel_attributes><additional_attributes>250;20;10;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>792</x><y>684</y><w>189</w><h>90</h></coordinates><panel_attributes>Book
+--
+ID: string
+Name: string
+Price:</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>693</x><y>558</y><w>207</w><h>144</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-
+1
+
+0*</panel_attributes><additional_attributes>10;10;210;140</additional_attributes></element></diagram>
