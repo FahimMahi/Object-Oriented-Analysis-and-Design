@@ -1,0 +1,55 @@
+<diagram program="umletino" version="14.3.0"><zoom_level>10</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>120</x><y>40</y><w>210</w><h>190</h></coordinates><panel_attributes>School
+--
+-Name: string
+-Address: string
+-Phone: int
+-Email: String
+--
+/+AddStudent()/
++RemoveStudent()
++AddTeacher()
++Remove Teacher()
++AddDept()
++RemoveDept()</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>510</x><y>60</y><w>210</w><h>130</h></coordinates><panel_attributes>Student
+--
+-Name: string
+-Address: string
+-Phone: int
+-Email: string
+-ID: int
+--
++Registration(): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>320</x><y>120</y><w>210</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
+m1=1..n</panel_attributes><additional_attributes>190;10;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>340</x><y>240</y><w>210</w><h>140</h></coordinates><panel_attributes>Instructor
+--
+-Name: string
+-ID:int
+-Password: string
+- Course: string
+--
++AddNotes(): void
++AddNotices(): void
++UploadResult: void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>580</x><y>410</y><w>210</w><h>120</h></coordinates><panel_attributes>Course
+--
+-Name: string
+-ID:int
+-Credit: int
+-Time: string 
+--
++AddStudent(): void
++RemoveStudent(): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>200</x><y>220</y><w>160</w><h>140</h></coordinates><panel_attributes>lt=&lt;-
+m1=0..n</panel_attributes><additional_attributes>140;110;10;110;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>630</x><y>180</y><w>100</w><h>250</h></coordinates><panel_attributes>lt=&lt;-
+m1=0..n</panel_attributes><additional_attributes>70;230;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>60</x><y>460</y><w>210</w><h>80</h></coordinates><panel_attributes>Department
+--
+-Name: string
+-DeptChair:string
+--
+ListDept(): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>350</x><y>470</y><w>210</w><h>80</h></coordinates><panel_attributes>DepartmentChair
+--
+-Name: string
+-Dept: string
+--
+ListDeptChair(): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>140</x><y>220</y><w>50</w><h>260</h></coordinates><panel_attributes>lt=&lt;-
+m1=1..n</panel_attributes><additional_attributes>10;240;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>440</x><y>370</y><w>50</w><h>120</h></coordinates><panel_attributes>lt=&lt;-
+m1=1..n</panel_attributes><additional_attributes>10;100;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>260</x><y>500</y><w>110</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
+m1=1</panel_attributes><additional_attributes>10;10;90;10</additional_attributes></element><element><id>Relation</id><coordinates><x>540</x><y>280</y><w>120</w><h>150</h></coordinates><panel_attributes>lt=&lt;-
+m1=0..n</panel_attributes><additional_attributes>90;130;10;10</additional_attributes></element></diagram>
